@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DarBajaActivity">
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button_servicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar servicio"
+        app:layout_editor_absoluteX="124dp"
+        app:layout_editor_absoluteY="440dp"
+        app:layout_constraintTop_toBottomOf="@+id/lista"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/button_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atrás"
+        app:layout_editor_absoluteX="124dp"
+        app:layout_editor_absoluteY="440dp"
+        app:layout_constraintTop_toBottomOf="@+id/button_servicio"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="158dp" />
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
